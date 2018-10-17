@@ -1,0 +1,8 @@
+com.josu.work.demo
+com.josu.work.demo.configuration
+com.josu.work.demo.controllers
+com.josu.work.demo.domain
+com.josu.work.demo.domain.implementation
+com.josu.work.demo.exception
+com.josu.work.demo.models
+com.josu.work.demo.repositorys

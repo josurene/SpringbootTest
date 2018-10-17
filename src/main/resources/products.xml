@@ -1,0 +1,16 @@
+<products>
+    <product>
+        <id>1</id>
+        <price>100</price>
+        <name>Camiseta</name>
+        <upc>1000110001</upc>
+        <discount> <id>1</id> <value>0</value> </discount>
+    </product>
+    <product>
+        <id>2</id>
+        <price>200</price>
+        <name>Pantalon</name>
+        <upc>1000110002</upc>
+        <discount> <id>2</id> <value>10</value> </discount>
+    </product>
+</products>
