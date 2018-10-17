@@ -29,7 +29,7 @@ import static org.hamcrest.Matchers.notNullValue;
 @Slf4j
 public class DemoApplicationTests {
 
-	private TestRestTemplate testRestTemplate = new TestRestTemplate();
+	private TestRestTemplate testRestTemplate = new TestRestTemplate("user","password");
 
 	String url = "http://localhost:8080/products";
 
@@ -85,7 +85,7 @@ public class DemoApplicationTests {
 
 		product.setDiscount(discount);
 
-		ResponseEntity<String> response = testRestTemplate.postForEntity(url, product ,String.class);
+		ResponseEntity<String> response = testRestTemplate.postForEntity(url+"/add", product ,String.class);
 		assertThat(response.getStatusCodeValue(),is(200));
 
 		ResponseEntity<Product> responseGet = testRestTemplate.getForEntity(url+"/3", Product.class);

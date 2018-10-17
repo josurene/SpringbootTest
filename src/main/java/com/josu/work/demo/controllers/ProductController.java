@@ -52,7 +52,7 @@ public class ProductController {
         return productDomain.get(id).orElseThrow(() -> new ProductNotFoundException("Product not found:"+id));
     }
 
-    @PostMapping("")
+    @PostMapping("/add")
     @ApiOperation(value = "Upload a product")
     @ApiResponses(value = {
             @ApiResponse(code = 200, message = "Successfully init")

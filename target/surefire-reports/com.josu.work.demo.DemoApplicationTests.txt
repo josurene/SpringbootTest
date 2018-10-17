@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.josu.work.demo.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.771 s - in com.josu.work.demo.DemoApplicationTests
